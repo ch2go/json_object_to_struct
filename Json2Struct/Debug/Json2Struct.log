@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/4/19 17:51:21。
+     1>项目“D:\workpalce\cpp\Json2Struct\Json2Struct\Json2Struct.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt struct_parser.c
+         struct_parser.c
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(60): warning C4090: “初始化”: 不同的“const”限定符
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(61): warning C4013: “strlen”未定义；假设外部返回 int
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(62): warning C4013: “strdup”未定义；假设外部返回 int
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(62): warning C4047: “=”:“char *”与“int”的间接级别不同
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(69): warning C4047: “初始化”:“void **”与“int *”的间接级别不同
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(71): warning C4013: “malloc”未定义；假设外部返回 int
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(71): warning C4047: “=”:“void *”与“int”的间接级别不同
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(73): warning C4013: “memset”未定义；假设外部返回 int
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(83): warning C4047: “初始化”:“array_list **”与“int *”的间接级别不同
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(88): warning C4013: “array_list_length”未定义；假设外部返回 int
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(92): warning C4013: “array_list_new”未定义；假设外部返回 int
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(101): warning C4013: “array_list_get_idx”未定义；假设外部返回 int
+     1>d:\workpalce\cpp\json2struct\json2struct\struct_parser.c(102): warning C4013: “array_list_add”未定义；假设外部返回 int
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workpalce\cpp\Json2Struct\Debug\Json2Struct.exe" /INCREMENTAL /NOLOGO jsonD.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\workpalce\cpp\Json2Struct\Debug\Json2Struct.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workpalce\cpp\Json2Struct\Debug\Json2Struct.lib" /MACHINE:X86 Debug\main.obj
+         Debug\struct_parser.obj
+         Json2Struct.vcxproj -> D:\workpalce\cpp\Json2Struct\Debug\Json2Struct.exe
+     1>已完成生成项目“D:\workpalce\cpp\Json2Struct\Json2Struct\Json2Struct.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.32
